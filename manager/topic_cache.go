@@ -16,7 +16,7 @@
 package main
 
 import (
-	"github.com/oikomi/FishChatServer/storage/redis_store"
+	"FishChatServer/storage/redis_store"
 )
 
 type TopicCacheCmd struct {

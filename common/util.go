@@ -19,10 +19,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/oikomi/FishChatServer/base"
-	"github.com/oikomi/FishChatServer/log"
-	"github.com/oikomi/FishChatServer/storage/mongo_store"
-	"github.com/oikomi/FishChatServer/storage/redis_store"
+	"FishChatServer/base"
+	"FishChatServer/log"
+	"FishChatServer/storage/mongo_store"
+	"FishChatServer/storage/redis_store"
 )
 
 const KeyPrefix string = base.COMM_PREFIX

@@ -16,9 +16,9 @@
 package protocol
 
 import (
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/storage/mongo_store"
-	"github.com/oikomi/FishChatServer/storage/redis_store"
+	"FishChatServer/libnet"
+	"FishChatServer/storage/mongo_store"
+	"FishChatServer/storage/redis_store"
 )
 
 type TopicMap map[string]*Topic

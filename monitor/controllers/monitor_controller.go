@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 
 	"github.com/astaxie/beego"
-	"github.com/oikomi/FishChatServer/monitor/conf"
+	"FishChatServer/monitor/conf"
 )
 
 type MonitorController struct {

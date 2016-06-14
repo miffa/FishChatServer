@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/oikomi/FishChatServer/libnet/syncs"
+	"FishChatServer/libnet/syncs"
 )
 
 var dialSessionId uint64

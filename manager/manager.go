@@ -19,8 +19,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/log"
+	"FishChatServer/libnet"
+	"FishChatServer/log"
 )
 
 /*

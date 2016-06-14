@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/oikomi/FishChatServer/monitor/controllers"
+	"FishChatServer/monitor/controllers"
 	"github.com/astaxie/beego"
 )
 

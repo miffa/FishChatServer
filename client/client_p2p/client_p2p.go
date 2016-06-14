@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"flag"
 	"encoding/json"
-	"github.com/oikomi/FishChatServer/log"
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/protocol"
-	"github.com/oikomi/FishChatServer/common"
+	"FishChatServer/log"
+	"FishChatServer/libnet"
+	"FishChatServer/protocol"
+	"FishChatServer/common"
 )
 
 var InputConfFile = flag.String("conf_file", "client.json", "input conf file name")   

@@ -18,9 +18,9 @@ package common
 import (
 	"sync"
 	"time"
-	"github.com/oikomi/FishChatServer/log"
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/protocol"
+	"FishChatServer/log"
+	"FishChatServer/libnet"
+	"FishChatServer/protocol"
 )
 
 type HeartBeat struct {

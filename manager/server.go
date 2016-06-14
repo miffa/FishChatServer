@@ -18,12 +18,12 @@ package main
 import (
 	"time"
 	"encoding/json"
-	"github.com/oikomi/FishChatServer/log"
-	"github.com/oikomi/FishChatServer/base"
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/protocol"
-	"github.com/oikomi/FishChatServer/storage/redis_store"
-	"github.com/oikomi/FishChatServer/storage/mongo_store"
+	"FishChatServer/log"
+	"FishChatServer/base"
+	"FishChatServer/libnet"
+	"FishChatServer/protocol"
+	"FishChatServer/storage/redis_store"
+	"FishChatServer/storage/mongo_store"
 )
 
 type Manager struct {

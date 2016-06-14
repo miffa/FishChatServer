@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/oikomi/FishChatServer/base"
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/log"
-	"github.com/oikomi/FishChatServer/storage/redis_store"
+	"FishChatServer/base"
+	"FishChatServer/libnet"
+	"FishChatServer/log"
+	"FishChatServer/storage/redis_store"
 )
 
 /*

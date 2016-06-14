@@ -16,7 +16,7 @@
 package main
 
 import (
-	"github.com/oikomi/FishChatServer/storage/mongo_store"
+	"FishChatServer/storage/mongo_store"
 )
 
 type SessionStoreCmd struct {

@@ -8,9 +8,9 @@ FishChat(鱼传 - `鱼传尺素`) - FishChat是一款优秀的即时通讯软件
 
 FishChat的访谈 : http://www.oschina.net/question/2306979_236368
 
-FishChat Android客户端见 https://github.com/oikomi/FishChatAndroid (紧张开发中, not usable yet)
+FishChat Android客户端见 https://FishChatAndroid (紧张开发中, not usable yet)
 
-**FishChatServer的Java版本同时也在开发中 (https://github.com/oikomi/FishChatServerJava)**
+**FishChatServer的Java版本同时也在开发中 (https://FishChatServerJava)**
 
 
 Table of Contents

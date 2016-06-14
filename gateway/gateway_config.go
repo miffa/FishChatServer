@@ -20,7 +20,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/oikomi/FishChatServer/log"
+	"FishChatServer/log"
 )
 
 type GatewayConfig struct {

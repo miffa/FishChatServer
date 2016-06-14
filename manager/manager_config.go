@@ -19,7 +19,7 @@ import (
 	"os"
 	"encoding/json"
 	"time"
-	"github.com/oikomi/FishChatServer/log"
+	"FishChatServer/log"
 )
 
 type ManagerConfig struct {

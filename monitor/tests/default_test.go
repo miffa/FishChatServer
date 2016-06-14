@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	_ "github.com/oikomi/PrivateCloudStorageWeb/web/routers"
+	_ "PrivateCloudStorageWeb/web/routers"
 
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"

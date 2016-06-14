@@ -18,7 +18,7 @@ package main
 import (
 	"os"
 	"encoding/json"
-	"github.com/oikomi/FishChatServer/log"
+	"FishChatServer/log"
 	"time"
 )
 

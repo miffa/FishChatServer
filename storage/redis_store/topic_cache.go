@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	"github.com/oikomi/FishChatServer/storage/mongo_store"
+	"FishChatServer/storage/mongo_store"
 )
 
 type TopicCache struct {

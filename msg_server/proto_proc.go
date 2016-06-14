@@ -19,13 +19,13 @@ import (
 	"flag"
 	"strconv"
 
-	"github.com/oikomi/FishChatServer/base"
-	"github.com/oikomi/FishChatServer/common"
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/log"
-	"github.com/oikomi/FishChatServer/protocol"
-	"github.com/oikomi/FishChatServer/storage/mongo_store"
-	"github.com/oikomi/FishChatServer/storage/redis_store"
+	"FishChatServer/base"
+	"FishChatServer/common"
+	"FishChatServer/libnet"
+	"FishChatServer/log"
+	"FishChatServer/protocol"
+	"FishChatServer/storage/mongo_store"
+	"FishChatServer/storage/redis_store"
 )
 
 func init() {

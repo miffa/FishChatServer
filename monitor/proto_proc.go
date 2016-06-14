@@ -17,10 +17,10 @@ package main
 
 import (
 	"flag"
-//	"github.com/oikomi/FishChatServer/log"
-//	"github.com/oikomi/FishChatServer/libnet"
-//	"github.com/oikomi/FishChatServer/protocol"
-//	"github.com/oikomi/FishChatServer/common"
+//	"FishChatServer/log"
+//	"FishChatServer/libnet"
+//	"FishChatServer/protocol"
+//	"FishChatServer/common"
 )
 
 func init() {

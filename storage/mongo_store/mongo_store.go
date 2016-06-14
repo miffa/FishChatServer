@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/oikomi/FishChatServer/log"
+	"FishChatServer/log"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

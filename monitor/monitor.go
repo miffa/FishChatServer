@@ -20,10 +20,10 @@ import (
 	"fmt"
 
 	"github.com/astaxie/beego"
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/log"
-	"github.com/oikomi/FishChatServer/monitor/controllers"
-	_ "github.com/oikomi/FishChatServer/monitor/routers"
+	"FishChatServer/libnet"
+	"FishChatServer/log"
+	"FishChatServer/monitor/controllers"
+	_ "FishChatServer/monitor/routers"
 )
 
 /*
@@ -84,7 +84,7 @@ func main() {
 	})
 
 	beego.Router("api/v1/monitor", &controllers.MonitorController{})
-	//beego.SetStaticPath("/views", "/mh/mygo/src/github.com/oikomi/FishChatServer/monitor/views")
+	//beego.SetStaticPath("/views", "/mh/mygo/src/FishChatServer/monitor/views")
 	beego.SetStaticPath("/views", "views")
 	beego.Run()
 }

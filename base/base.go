@@ -16,8 +16,8 @@
 package base
 
 import (
-	"github.com/oikomi/FishChatServer/libnet"
-	"github.com/oikomi/FishChatServer/protocol"
+	"FishChatServer/libnet"
+	"FishChatServer/protocol"
 )
 
 type ChannelMap map[string]*ChannelState
