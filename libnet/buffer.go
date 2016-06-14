@@ -90,11 +90,11 @@ type bufferPool struct {
 	size int64
 
 	// InBuffer
-	in     unsafe.Pointer
 	inGet  uint64
 	inNew  uint64
 	inFree uint64
 	inDrop uint64
+	in     unsafe.Pointer
 
 	// OutBuffer
 	out     unsafe.Pointer
@@ -386,10 +386,12 @@ func (out *OutBuffer) broadcastFree() {
 
 // Return the buffer to buffer pool.
 func (out *OutBuffer) free() {
-	if out.isFreed {
-		panic("link.OutBuffer: double free")
+	if enableBufferPool {
+		if out.isFreed {
+			panic("link.OutBuffer: double free")
+		}
+		out.pool.PutOutBuffer(out)
 	}
-	out.pool.PutOutBuffer(out)
 }
 
 // Prepare for next message.
